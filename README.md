@@ -34,3 +34,10 @@ import CarrierCards from './components/CarrierCards;
 | Prop Name | Options | Default Value | Description              |
 | --------- | ------- | ------------- | ------------------------ |
 | url       | string  | none          | Sets the url for the API |
+
+## Global Components
+[Button](/src/components/BaseButton)
+
+[Accordion](/src/components/BaseAccordion)
+
+[Select](/src/components/BaseSelect)
