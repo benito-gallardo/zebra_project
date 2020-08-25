@@ -1,0 +1,26 @@
+@import '../../assets/sass/vars/index';
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #5c6cff;
+  padding: 0 1.5rem;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  .icon {
+    margin-right: 0.5rem;
+    &.btn-down-arrow {
+      width: 18px;
+    }
+  }
+  &.yellow-btn {
+    background: $yellow-gradient;
+  }
+  &.blue-btn {
+    background: $blue-gradient;
+  }
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The BaseButton Component  matchs snapshot with props 1`] = `
+<DocumentFragment>
+  <a
+    class="test-btn btn"
+    data-testid="base-button"
+    href="/test"
+  >
+    <span>
+      icon
+    </span>
+    View More
+  </a>
+</DocumentFragment>
+`;
+
+exports[`The BaseButton Component  matchs snapshot without props 1`] = `
+<DocumentFragment>
+  <a
+    class=" btn"
+    data-testid="base-button"
+    href="/"
+  />
+</DocumentFragment>
+`;

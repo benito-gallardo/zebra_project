@@ -1,0 +1,26 @@
+@import '../../assets/sass/vars/index';
+
+.carrier-card-bottom {
+  > div {
+    padding: 0 1rem 0;
+    h4 {
+      color: black;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 0;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid $grey-light;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  }
+  @media (min-width: $desktop) {
+    display: flex;
+    > div {
+      padding: 0 1rem 1rem;
+      flex: 1 1 50%;
+      line-height: 26px;
+    }
+  }
+}

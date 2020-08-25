@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The BaseSelect Component matches snapshot with props 1`] = `
+<DocumentFragment>
+  <select
+    data-testid="base-select"
+  >
+    <option
+      data-testid="base-select-option"
+      value="0"
+    >
+      Title 0
+    </option>
+    <option
+      data-testid="base-select-option"
+      value="1"
+    >
+      Title 1
+    </option>
+  </select>
+</DocumentFragment>
+`;
+
+exports[`The BaseSelect Component matches snapshot without props 1`] = `
+<DocumentFragment>
+  <select
+    data-testid="base-select"
+  >
+    <option
+      data-testid="base-select-option"
+      value="World"
+    >
+      Hello
+    </option>
+  </select>
+</DocumentFragment>
+`;

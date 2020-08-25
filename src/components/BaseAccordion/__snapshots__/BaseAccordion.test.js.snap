@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The BaseAccordion Component matches snapshot with props 1`] = `
+<DocumentFragment>
+  <section
+    class="accordion  test-class"
+    data-testid="base-accordion"
+  >
+    <div
+      class="accordion-top"
+      data-testid="base-accordion-top"
+    >
+      Top Content
+    </div>
+    <div
+      class="accordion-bottom"
+      data-testid="base-accordion-bottom"
+      style="max-height: 0px; visibility: hidden;"
+    >
+      <div
+        class="accordion-content"
+      >
+         Bottom Content
+      </div>
+    </div>
+    <svg
+      class="accordion-icon bottom"
+      data-testid="base-accordion-icon"
+    >
+      IconChevronDown.svg
+    </svg>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`The BaseAccordion Component matches snapshot without props 1`] = `
+<DocumentFragment>
+  <section
+    class="accordion  "
+    data-testid="base-accordion"
+  >
+    <div
+      class="accordion-top"
+      data-testid="base-accordion-top"
+    >
+      Title
+      <svg
+        class="accordion-icon right"
+        data-testid="base-accordion-icon"
+      >
+        IconChevronDown.svg
+      </svg>
+    </div>
+    <div
+      class="accordion-bottom"
+      data-testid="base-accordion-bottom"
+      style="max-height: 0px; visibility: hidden;"
+    >
+      <div
+        class="accordion-content"
+      >
+         Some content
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

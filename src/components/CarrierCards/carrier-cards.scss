@@ -1,0 +1,39 @@
+@import '../../assets/sass/vars/index';
+.card-wrap {
+  .accordion {
+    @media (max-width: $mobile) {
+      max-width: 450px;
+      margin: 0 auto 2rem;
+      max-width: 450px;
+      margin: 0 auto 2rem;
+      box-shadow: 0px 5px 10px -5px;
+      padding: 2rem 1rem;
+    }
+    &.corner-tag {
+      position: relative;
+      overflow: hidden;
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+      }
+      &:before {
+        background: #5c6cff;
+        width: 60px;
+        height: 60px;
+        left: -27px;
+        top: -32px;
+        transform: rotate(48deg);
+      }
+    }
+    &:after {
+      top: 2px;
+      left: 4px;
+      width: 17px;
+      height: 18px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url(../../assets/images/IconStarWhite.svg);
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import '../../assets/sass/vars/index';
+
+.carrier-card-top {
+  align-items: center;
+  width: 100%;
+  .sec-2 {
+    h2 {
+      margin: 0;
+      font-weight: 600;
+    }
+    .tagline {
+      margin: 0;
+      font-weight: 600;
+      color: $grey;
+    }
+  }
+  .sec-3 {
+    .price-wrap {
+      padding-bottom: 0.5rem;
+      .tag-text {
+        color: #5c6cff;
+        font-size: 14px;
+        padding-right: 0.3rem;
+        font-weight: bolder;
+      }
+      .rate {
+        font-size: 32px;
+        font-weight: normal;
+        margin: 0;
+        span {
+          color: $grey;
+          line-height: 0;
+          &.slash {
+            font-size: 28px;
+          }
+          &.month {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .icon {
+      display: inline;
+      vertical-align: sub;
+    }
+  }
+  @media (min-width: $desktop) {
+    display: flex;
+    .sec-1 {
+      flex: 0 1 10%;
+    }
+    .sec-2 {
+      flex: 1 1 auto;
+      .stars-features {
+        display: flex;
+        align-items: center;
+        div:nth-child(2) {
+          padding-left: 1.5rem;
+        }
+      }
+    }
+    .sec-3 {
+      display: flex;
+      flex: 1 1 auto;
+      flex-direction: column;
+      align-items: flex-end;
+      .price-wrap {
+        display: flex;
+        align-items: center;
+        .rate {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    text-align: center;
+    .sec-2 {
+      .tagline {
+        max-width: 280px;
+        margin: 0 auto;
+      }
+    }
+    .sec-3 {
+      padding: 1rem 0 2rem;
+    }
+  }
+}

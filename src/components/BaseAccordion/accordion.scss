@@ -1,0 +1,37 @@
+@import '../../assets/sass/vars/index';
+.accordion {
+  border: 1px solid $grey-light;
+  padding: 1rem 3rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  .accordion-top {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .accordion-icon {
+    display: inline-block;
+    cursor: pointer;
+    &.bottom {
+      display: block;
+      margin: 0 auto;
+    }
+    polygon {
+      fill: $grey;
+    }
+  }
+  .accordion-bottom {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    .accordion-content {
+      padding-top: 1rem;
+    }
+  }
+  &.active {
+    .accordion-icon {
+      transform: rotate(180deg);
+    }
+  }
+}

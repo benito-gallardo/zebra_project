@@ -1,0 +1,10 @@
+@import '../../assets/sass/vars/index';
+
+select {
+  border-color: $grey;
+  padding: 5px;
+  border-radius: 3px;
+  color: $grey;
+  outline: none;
+  font-size: 14px;
+}
